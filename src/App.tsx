@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
-import Planets from './components/Planets';
-import People from './components/People';
 import { ReactQueryDevtools } from 'react-query/devtools'
+import People from './components/People/People';
+import Planets from './components/Planets/Planets';
 
 function App() {
 const [page, setPage] = useState('planets')

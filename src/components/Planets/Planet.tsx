@@ -6,6 +6,7 @@ const Planet = ({planet}:any) => {
             <h3>{planet.name}</h3>
             <p>Population - {planet.population} </p>
             <p>Terrain - {planet.terrain}</p>
+            <p>Climate - {planet.climate}</p>
         </div>
     )
 }  
